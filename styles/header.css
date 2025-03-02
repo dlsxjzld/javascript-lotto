@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+
+  padding: 14px 0 14px 30px;
+
+  background-color: var(--primary-color);
+  text-align: start;
+}
+
+.header-title {
+  width: 147px;
+  height: 36px;
+
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}

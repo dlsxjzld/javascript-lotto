@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🎱 행운의 로또</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/javascript-lotto/styles/reset.css" />
+    <link rel="stylesheet" href="/javascript-lotto/styles/styles.css" />
+    <link rel="stylesheet" href="/javascript-lotto/styles/modal.css" />
+    <link rel="stylesheet" href="/javascript-lotto/styles/header.css" />
+    <link rel="stylesheet" href="/javascript-lotto/styles/main.css" />
+    <link rel="stylesheet" href="/javascript-lotto/styles/footer.css" />
+    <script type="module" crossorigin src="/javascript-lotto/assets/index-D4lXTTVP.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1 class="header-title">🎱 행운의 로또</h1>
+      </header>
+      <main class="main">
+        <h2 class="main-winning-check-title">🎱 내 번호 당첨 확인 🎱</h2>
+        <section class="main-purchase-amount">
+          <form id="lottoPurchaseForm" class="main-purchase-amount-form">
+            <article class="main-purchase-amount-input-label-container">
+              <label
+                class="main-purchase-amount-input-label"
+                for="purchaseAmountInput"
+              >
+                구입할 금액을 입력해주세요.
+              </label>
+              <input
+                id="purchaseAmountInput"
+                class="main-purchase-amount-input"
+                name="purchaseAmount"
+                type="number"
+                placeholder="금액"
+              />
+            </article>
+            <button
+              id="purchaseAmountButton"
+              class="main-purchase-amount-button"
+            >
+              구입
+            </button>
+          </form>
+        </section>
+        <section id="lottoListWinningLottoContainer"></section>
+      </main>
+      <footer class="footer">
+        <p class="footer-text">Copyright 2023. woowacourse</p>
+      </footer>
+    </div>
+  </body>
+</html>

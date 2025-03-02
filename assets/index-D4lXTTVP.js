@@ -676,7 +676,7 @@ const createWinningStatisticsModal = (lottoResult = {}, lottoProfit = 0) => {
                 children: [
                   {
                     tag: "img",
-                    attributes: { src: "/public/vector.svg", alt: "close" }
+                    attributes: { src: "/vector.svg", alt: "close" }
                   }
                 ]
               }
